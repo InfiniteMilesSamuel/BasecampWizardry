@@ -12,25 +12,30 @@ pip install -r requirements.txt
 
 ## 📖 Usage
 ### 🌍 Entering the Basecamp 4 Realm:
+
 from basecamp4 import Basecamp4
 camp = Basecamp4(token="your_ancient_token")
 
 ### Setting up a Potion (Token Management):
+
 camp.brew_token("your_ingredients")
 
 ### 🦉 Summoning Your Projects:
 To call forth all the projects you've imbued with your magic:
+
 mystic_projects = camp.invoke_projects()
 for project in mystic_projects:
     print(project.title)
     
 ### 🌱 Planting a Thought (Creating a Todo):
 Whenever a new quest or task emerges, inscribe it into the fabric of Basecamp:
+
 quest = camp.engrave_todo(project_id=12345, 
                           title="Defeat the dragon",
                           description="Venture to the east and face the fearsome beast!")
 ### 🌖 Gazing into the Future (Fetching Upcoming Events):
 Peek into the threads of time to foresee upcoming events:
+
 events = camp.see_future()
 for event in events:
     print(event.details)
@@ -40,6 +45,7 @@ For wizards wishing to channel raw, unbridled magic.
 
 ### 🌪 Conjuring the Elements (Complex Filtering):
 Invoke the wind and water to filter through your projects, finding only those that resonate with specific energies:
+
 filtered_projects = camp.invoke_projects(status='active', 
                                          creator_id=67890,
                                          last_updated_after='2023-01-01')
@@ -48,22 +54,26 @@ for project in filtered_projects:
 
 ### 🕊 Sending Messenger Birds (Notifications):
 Send out your magical messenger birds to notify your guild members of important updates:
+
 camp.send_bird_message(project_id=12345,
                        message="The stars have aligned! Our quest begins tomorrow at dawn.
 
 ### 🌀 Direct Communication with Basecamp Spirits:
 For those moments when you must converse directly with the ethereal beings of Basecamp without the aid of predefined spells:
+
 response = camp.direct_commune(method='GET', endpoint='/projects/12345/todolists.json')
 print(response.json())
 
 ### ⏳ Manipulating the Sands of Time (Updating Deadlines):
 With your newfound power, you can also change the very sands of time! Update deadlines for tasks:
+
 camp.shift_time(project_id=12345, 
                 todo_id=98765, 
                 new_deadline='2023-12-31')
 
 ### 🔐 Unearthing Hidden Secrets:
 Venture deep into the annals of Basecamp to fetch hidden documents:
+
 secret_docs = camp.unearth_secrets(project_id=12345, 
                                    search_terms=['map', 'treasure'])
 for doc in secret_docs:
