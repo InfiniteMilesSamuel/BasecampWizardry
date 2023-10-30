@@ -2,7 +2,7 @@
 Streamline Basecamp 4 integration in Python apps. Authenticate, manage projects, messages, to-dos, and more. Simplify workflows with an intuitive Python interface.
 # Basecamp 4 API Python Client Library
 
-[![Python Version](https://img.shields.io/pypi/pyversions/basecamp4-client.svg)](https://pypi.org/project/basecamp4-client/)
+![Python Version](https://img.shields.io/badge/Python-3.11-blue.svg)
 [![PyPI Version](https://img.shields.io/pypi/v/basecamp4-client.svg)](https://pypi.org/project/basecamp4-client/)
 [![License](https://img.shields.io/pypi/l/basecamp4-client.svg)](https://github.com/yourusername/basecamp4-client/blob/main/LICENSE)
 
