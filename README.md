@@ -101,7 +101,5 @@ $ bc4 copy-access 12341234 87658765  # Give user 87658765 access to all the proj
 Implement the rest of the Basecamp 4 API.
 Expand the command-line tool beyond the "configure" command.
 Improve testing coverage.
-## License
-This project is licensed under the MIT License - see the LICENSE file for details.
 
 You can replace placeholders like `<yourusername>` with your actual GitHub username and add additional sections or details as needed for your specific Basecamp 4 API client library. Don't forget to include the license file (e.g., `LICENSE`) in your repository if you choose to use the MIT License as shown in the example.
