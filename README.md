@@ -24,7 +24,7 @@ mystic_projects = camp.invoke_projects()
 for project in mystic_projects:
     print(project.title)
     
-###🌱 Planting a Thought (Creating a Todo):
+### 🌱 Planting a Thought (Creating a Todo):
 Whenever a new quest or task emerges, inscribe it into the fabric of Basecamp:
 quest = camp.engrave_todo(project_id=12345, 
                           title="Defeat the dragon",
@@ -38,7 +38,7 @@ for event in events:
 ## 🌌 Advanced Usage
 For wizards wishing to channel raw, unbridled magic. 
 
-###🌪 Conjuring the Elements (Complex Filtering):
+### 🌪 Conjuring the Elements (Complex Filtering):
 Invoke the wind and water to filter through your projects, finding only those that resonate with specific energies:
 filtered_projects = camp.invoke_projects(status='active', 
                                          creator_id=67890,
@@ -46,7 +46,7 @@ filtered_projects = camp.invoke_projects(status='active',
 for project in filtered_projects:
     print(project.title)
 
-###🕊 Sending Messenger Birds (Notifications):
+### 🕊 Sending Messenger Birds (Notifications):
 Send out your magical messenger birds to notify your guild members of important updates:
 camp.send_bird_message(project_id=12345,
                        message="The stars have aligned! Our quest begins tomorrow at dawn.
@@ -56,13 +56,13 @@ For those moments when you must converse directly with the ethereal beings of Ba
 response = camp.direct_commune(method='GET', endpoint='/projects/12345/todolists.json')
 print(response.json())
 
-###⏳ Manipulating the Sands of Time (Updating Deadlines):
+### ⏳ Manipulating the Sands of Time (Updating Deadlines):
 With your newfound power, you can also change the very sands of time! Update deadlines for tasks:
 camp.shift_time(project_id=12345, 
                 todo_id=98765, 
                 new_deadline='2023-12-31')
 
-🔐 Unearthing Hidden Secrets:
+### 🔐 Unearthing Hidden Secrets:
 Venture deep into the annals of Basecamp to fetch hidden documents:
 secret_docs = camp.unearth_secrets(project_id=12345, 
                                    search_terms=['map', 'treasure'])
