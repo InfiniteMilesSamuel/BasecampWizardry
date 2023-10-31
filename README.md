@@ -130,7 +130,25 @@ Miles, the Mystical Maven: Conduit of Code & Master of the Mainframe
 ## 💫 Magic Wands & Wonderful Widgets
 Every masterful mage has their collection of arcane artifacts, and our project is imbued with the powers of several mystical modules. These are but a few of the enchanted essentials powering our potion:
 
-Django's Djinn: An omnipotent oracle that dances with databases and brings dazzling dreams to life. Discover more
+Django's Djinn: An omnipotent oracle that dances with databases and brings dazzling dreams to life. URL: https://www.djangoproject.com/
+
+FastAPI's Familiar: A swift sprite that soars in the service of creating stellar APIs. The speed of this spirit is unparalleled! URL: https://fastapi.tiangolo.com/
+ 
+Flask's Phantasm: A lightweight luminary, ever-ready to render radiant web realms at a moment's notice. URL: https://flask.palletsprojects.com/
+
+Numpy's Nexus: A numerical nymph, weaving wonders with arrays and matrices. Mathematics is its playground. URL: https://numpy.org/
+
+Pandas' Parchment: A proficient paper, blessed by the bear of data manipulation and analysis. Perfect for potion preparation protocols. URL: https://pandas.pydata.org/
+
+Pytest's Potion: The elixir expert! Every time we craft a new concoction, it's the first to test its taste and tell if it's terrific or toxic. URL: https://pytest.org/
+
+Celery's Circlet: Asynchronous actions are an art, and with this circlet, tasks travel through time, taken care of in the twinkle of an eye. URL: https://docs.celeryproject.org/en/stable/
+
+Werkzeug's Wisp: A utility spirit, whispering wizardry for WSGI, used wisely within Flask's fold. URL: https://werkzeug.palletsprojects.com/
+
+Pillow's Portal: Our project's pictorial protector, painting and processing pictures with perfection. URL: https://pillow.readthedocs.io/
+
+
 
 
 
