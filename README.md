@@ -4,6 +4,7 @@ A magical library to communicate with the ancient and mysterious Basecamp 4 APIs
 
 Discover more about the wonders of Basecamp 4 by visiting its [official website](https://basecamp.com/) or delving into its comprehensive [API documentation](https://github.com/basecamp/bc3-api).
 
+🚧 Note to Readers: We sincerely apologize for any formatting inconsistencies you might observe in this document. We're aware of the issue and are actively working on a resolution. In the meantime, please bear with us and refer to the raw markdown or other markdown viewers if anything appears amiss. Thank you for your understanding. 🚧
 
 ## 🌟 Features
 Automatic potion brewing (token management).
