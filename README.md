@@ -11,6 +11,25 @@ Automatic potion brewing (token management).
 Enchanted map integration (session handling).
 Scroll of forecasting (rate limit management).
 
+## 🌟 Extended Features for BasecampWizardryCli
+
+### 🔮 Crystal Cache (Caching Mechanism):
+#### Automatically stores magical energies (data) for swift and efficient spellcasting.
+camp.crystal_cache(enable=True)
+
+### 🛡️ Ward of Protection (Error Handling):
+#### Shields your magical operations from unexpected curses (errors) and hexes (exceptions).
+camp.ward_of_protection(spell="Invoke Project")
+
+### 🔄 Cyclone of Continuity (Session Persistence):
+#### Ensures your magical sessions remain unbroken, even through the eye of a storm.
+camp.cyclone_of_continuity(renew=True)
+
+### 🌙 Lunar Tides (Automated Task Scheduling):
+#### Aligns project tasks with the phases of the moon for optimal flow and productivity.
+camp.lunar_tides(schedule="Waxing Crescent")
+
+
 ## 🛠 Installation
 pip install -r requirements.txt
 
