@@ -6,12 +6,19 @@ Discover more about the wonders of Basecamp 4 by visiting its [official website]
 
 🚧 Note to Readers: We sincerely apologize for any formatting inconsistencies you might observe in this document. We're aware of the issue and are actively working on a resolution. In the meantime, please bear with us and refer to the raw markdown or other markdown viewers if anything appears amiss. Thank you for your understanding. 🚧
 
-## 🌟 Features
-Automatic potion brewing (token management).
-Enchanted map integration (session handling).
-Scroll of forecasting (rate limit management).
+## 🌟 Features for BasecampWizardryCli
 
-## 🌟 Extended Features for BasecampWizardryCli
+### 🔮 Automatic Potion Brewing (Token Management):
+#### This feature concocts your access potions (tokens) automatically, ensuring that your magical connection to the realm of Basecamp is always fresh and potent. No more manual grinding of ingredients or chanting of renewal spells!
+camp.potion_brewer.auto_concoct(start=True)
+
+### 🗺️ Enchanted Map Integration (Session Handling):
+#### With the Enchanted Map, your navigational spells (sessions) are seamlessly woven into the fabric of your quest. This ensures that not a single step is lost in the ethereal mists of the internet, keeping your journey through the projects uninterrupted.
+camp.enchanted_map.integrate(neverlose=True)
+
+### 📜 Scroll of Forecasting (Rate Limit Management):
+#### The Scroll of Forecasting keeps an eye on the celestial movements (API calls) to ensure you never invoke too many spells (requests) too quickly. It's like having a wise oracle managing the flow of your magical energies to prevent the wrath of the gods (API rate limits).
+camp.scroll_of_forecasting.set_limits(wisdom=True)
 
 ### 🔮 Crystal Cache (Caching Mechanism):
 #### Automatically stores magical energies (data) for swift and efficient spellcasting.
