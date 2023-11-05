@@ -16,17 +16,21 @@ jobs:
 
       # ... rest of your build steps ...
 
-  deploy:
-    runs-on: windows-latest
-    needs: build
-    environment:
-      name: 'Production'
-      url: ${{ steps.deploy-to-webapp.outputs.webapp-url }}
+deploy:
+  runs-on: windows-latest
+  needs: build
+  environment:
+    name: 'Production'
+    url: ${{ steps.deploy-to-webapp.outputs.webapp-url }}
 
-    steps:
-      # ... rest of your deploy steps ...
+steps:
+    - name: Download artifact from build job
+      uses: actions/download-artifact@v3
+      with:
+        name: .net-app
 
-  update_documentation:
+
+update_documentation:
     runs-on: windows-latest
     needs: deploy
     if: ${{ github.ref == 'refs/heads/main' || github.ref == 'refs/heads/master' }}
