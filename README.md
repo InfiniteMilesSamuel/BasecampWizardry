@@ -130,12 +130,14 @@ for event in events:
 ## 🌟 Additional Usage
 ### 📚 Scribing in the Book of Tasks (Task Management):
 To etch a new task into the annals of a to-do list:
+
 new_task = camp.scribe_task(list_id=54321,
                             title="Gather the mystic herbs",
                             description="Seek out the rare herbs needed for the potion of clarity.")
 
 ### 🧭 Charting the Path (Project Planning):
 Lay out the grand plan for your quest, setting milestones and objectives:
+
 plan = camp.chart_path(project_id=12345,
                        milestones=["Find the key", "Unlock the chamber", "Defeat the guardian"],
                        objectives=["Treasure must be secured", "No casualties"])
@@ -181,18 +183,21 @@ for doc in secret_docs:
 
 ### 📦 Conjuring Collections (Bulk Actions):
 Harness the power of the elements to perform bulk actions, like updating multiple to-dos at once:
+
 camp.conjure_collections(action="complete",
                          todo_ids=[111, 222, 333],
                          project_id=12345)
 
 ### 🌐 Weaving Webhooks (Event Triggers):
 Set up mystical triggers that invoke spells upon certain events:
+
 camp.weave_webhook(project_id=12345,
                    event="new_message",
                    spell="NotifyGuild")
 
 ### 🛡️ Shielding the Realm (Access Control):
 Invoke barriers to protect your projects from prying eyes:
+
 camp.shield_realm(project_id=12345,
                   permissions={"read": ["Wizards"], "write": ["Archmage"]})
 
@@ -203,11 +208,13 @@ camp.moonlight_communion(project_id=12345,
 
 ### 🧪 Alchemical Transformations (Data Conversion):
 Transmute the format of your project data to suit different purposes or platforms:
+
 camp.whispering_winds(message="The quest is complete. Rejoice!",
                       realm="ProjectRealm")
 
 ### 🎭 Masquerade of Projects (Project Templates):
 Invoke a masquerade to create new projects in the guise of old ones, using templates:
+
 new_project = camp.masquerade_of_projects(template_id=67890,
                                           new_project_name="Expedition to the Enchanted Forest")
   
