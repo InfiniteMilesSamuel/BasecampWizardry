@@ -10,70 +10,87 @@ Discover more about the wonders of Basecamp 4 by visiting its [official website]
 
 ### 🔮 Automatic Potion Brewing (Token Management):
 This feature concocts your access potions (tokens) automatically, ensuring that your magical connection to the realm of Basecamp is always fresh and potent. No more manual grinding of ingredients or chanting of renewal spells!
+
 camp.potion_brewer.auto_concoct(start=True)
 
 ### 🗺️ Enchanted Map Integration (Session Handling):
 With the Enchanted Map, your navigational spells (sessions) are seamlessly woven into the fabric of your quest. This ensures that not a single step is lost in the ethereal mists of the internet, keeping your journey through the projects uninterrupted.
+
 camp.enchanted_map.integrate(neverlose=True)
 
 ### 📜 Scroll of Forecasting (Rate Limit Management):
 The Scroll of Forecasting keeps an eye on the celestial movements (API calls) to ensure you never invoke too many spells (requests) too quickly. It's like having a wise oracle managing the flow of your magical energies to prevent the wrath of the gods (API rate limits).
+
 camp.scroll_of_forecasting.set_limits(wisdom=True)
 
 ### 🔮 Crystal Cache (Caching Mechanism):
 Automatically stores magical energies (data) for swift and efficient spellcasting.
+
 camp.crystal_cache(enable=True)
 
 ### 🛡️ Ward of Protection (Error Handling):
 Shields your magical operations from unexpected curses (errors) and hexes (exceptions).
+
 camp.ward_of_protection(spell="Invoke Project")
 
 ### 🔄 Cyclone of Continuity (Session Persistence):
 Ensures your magical sessions remain unbroken, even through the eye of a storm.
+
 camp.cyclone_of_continuity(renew=True)
 
 ### 🌙 Lunar Tides (Automated Task Scheduling):
 Aligns project tasks with the phases of the moon for optimal flow and productivity.
+
 camp.lunar_tides(schedule="Waxing Crescent")
 
 ### 🌈 Rainbow Conduit (API Gateway):
 A colorful bridge between realms, ensuring smooth and secure data passage.
+
 camp.rainbow_conduit(secure=True)
 
 ### 📜 Elder Scrolls (Legacy System Integration):
 Invokes ancient spells to seamlessly integrate with venerable and arcane systems.
+
 camp.elder_scrolls(connect="Ancient Database")
 
 ### 🔗 Chain of Harmony (Dependency Management):
 Links all your magical components in a perfect balance, ensuring they work in concert.
+
 camp.chain_of_harmony(bind="Project Dependencies")
 
 ### 🌟 Astral Alignments (Third-Party Integrations):
 Connects your Basecamp with the stars, allowing for cosmic collaborations.
+
 camp.astral_alignments(service="Celestial API")
 
 ### 🧙‍♂️ Wizard's Whisper (Silent Notifications):
 Sends silent updates to keep your team informed without breaking their trance.
+
 camp.wizards_whisper(message="Update Complete")
 
 ### 🕰️ Sands of Time (Backup and Restore):
 Turns back time to recover lost data, or moves it forward to test future scenarios.
+
 camp.sands_of_time(restore_point="Yesterday")
 
 ### 🔍 Scrying Lens (Advanced Search):
 Peers deep into your projects, finding the needle in the haystack with ease.
+
 camp.scrying_lens(query="Lost Artifact")
 
 ### 🎇 Festival of Ideas (Brainstorming Module):
 Gathers your team's thoughts in a magical festival, where ideas bloom like fireworks.
+
 camp.festival_of_ideas(initiate=True)
 
 ### 🔥 Forge of Creation (Rapid Prototyping):
 Quickly turns concepts into reality, like a blacksmith forging weapons from raw fire.
+
 camp.forge_of_creation(prototype="Enchanted App")
 
 ### 🌍 World Tree Network (Project Hierarchy Visualization):
 Visualizes your projects as branches of the great World Tree, showing their interconnections.
+
 camp.world_tree_network(view="Global")
 
 ## 🛠 Installation
